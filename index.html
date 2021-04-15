@@ -21,16 +21,16 @@
         </table>
         <p>To tyle o moim kotku, teraz JA</p>
         <hr>
-        <h3>Moje gierki</h3>
+        <h3 class="h3">Moje gierki</h3>
        <ul>
            <table>
                <tr>
                    <td><strong>Snake</strong> w cmd, słabe ale jare</td>                 
-                   <td><strong><a href="https://www.mediafire.com/file/auqae6kugnwroet/Snake.exe/file">POBIERZ</a></strong></td>
+                   <td><strong><a href="https://www.mediafire.com/file/auqae6kugnwroet/Snake.exe/file"><button class"download">POBIERZ</button></a></strong></td>
                 </tr>
                <tr>
                 <td><strong>Trexo</strong> już zdecydowanie lepiej, bo w SFML</td>
-                <td><strong><a href="">POBIERZ</a></strong></li></td>
+                <td><strong><a href=""><button class"download">POBIERZ</button></a></strong></li></td>
                 </tr>
            </table>
        </ul>
@@ -43,14 +43,20 @@
        </ol>
        <hr>
        <h3>Dobra teraz ty mi tu powiedz czy wolisz kotki czy pieski i czy podoba Ci się ten enduro i te gierki no i w ogóle XD</h3>
-       <from action="mailto:garbacik.mateusz@gmail.com" method="post" enctype="text/plain">
+       <from action="mailto:matek10200@gmail.com" method="get" enctype="text/plain">
            <label>Twoje imię:</label>
-           <input type="text" name="Title" value=""><br>
+           <input type="text" name="subject" value=""><br>
            <label>Twój e-mail:</label>
-           <input type="email" name="Email:" value=""><br>
+           <input type="email" name="email" value=""><br>
            <label>O tobie:</label><br>
            <textarea name="yourMessage" rows="12" cols="30"></textarea><br>
            <input type="submit" name="">
        </from>
+       <form action="mailto:matek10200@gmail.com" method="GET">
+        <input name="subject" type="text" />
+        <textarea name="body"></textarea>
+        <input type="submit" value="Send" />
+    </form>
+    
     </body> 
 </html>
