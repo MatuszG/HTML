@@ -1,5 +1,7 @@
 body{
         background-color: rgb(230, 222, 238);
+        margin:0px;
+        border: 2px;
 }
  hr {
     border-style: none;
@@ -9,6 +11,10 @@ body{
     width:7%;
 }
 
+img:hover{
+    background-color:beige;
+}
+
 h1{
     color:rgb(21, 21, 34);
 }
@@ -16,3 +22,8 @@ h1{
 h3 {
     color: #45a5a5;
 }
+
+.h3{
+    color:45a5a5;
+}
+
